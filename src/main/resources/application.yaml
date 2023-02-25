@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://tutorial:tutorial@clusterturorial.atom8ux.mongodb.net/myTutorial
+      database: myTutorial
+
