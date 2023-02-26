@@ -1,6 +1,5 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://tutorial:tutorial@clusterturorial.atom8ux.mongodb.net/myTutorial
+      uri: ${URL_CONNECTION}
       database: myTutorial
-
