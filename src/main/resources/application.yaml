@@ -1,5 +1,3 @@
 spring:
-  data:
-    mongodb:
-      uri: ${URL_CONNECTION}
-      database: myTutorial
+  profiles:
+     active : ${PROFILE}
