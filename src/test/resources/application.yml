@@ -1,0 +1,8 @@
+spring:
+  mongodb:
+    embedded:
+      version: "3.6.5"
+  data:
+    mongodb:
+      database: test
+      port: 27017

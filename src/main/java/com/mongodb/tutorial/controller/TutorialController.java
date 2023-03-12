@@ -41,6 +41,7 @@ public class TutorialController {
         return new ResponseEntity<>(tutorial.get(), HttpStatus.OK);
     }
 
+    @Operation(summary = "Delete Tutorial by ID")
     @DeleteMapping("/{idTutorial}")
     public ResponseEntity<HttpStatus> deleteTutorialByID(@PathVariable String idTutorial){
         tutorialService.deleteTutorial(idTutorial);

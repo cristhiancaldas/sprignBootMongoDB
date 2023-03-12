@@ -1,3 +1,5 @@
 spring:
-  profiles:
-     active : ${PROFILE}
+  data:
+    mongodb:
+      uri: ${URL_CONNECTION_TEST}
+      database: myTutorial

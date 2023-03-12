@@ -1,5 +1,5 @@
 spring:
   data:
     mongodb:
-      uri: ${URL_CONNECTION_TEST}
+      uri:
       database: myTutorial
